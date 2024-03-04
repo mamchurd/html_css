@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+    <link rel='stylesheet' type='text/css' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div><a href="#">Главная</a></div>
+            <div><a href="#">О нас</a></div>
+            <div><a href="#">Контакты</a></div>
+        </div>    
+    </header>  
+    <div class="content">
+        <div>
+            <p>Фамилия Имя</p>
+            <p>Должность</p>
+            <p>+7(999) 999 99-00</p>
+        </div>
+        <div>
+            <form id="data">
+                <div>
+                    <input id="tmpTitle" placeholder="Введите тему">   
+                </div>
+                <div>     
+                    <textarea id="description" rows="5" placeholder="Введите описание"></textarea>
+                </div>
+                <div style="height: 30px;">
+                    <button onclick="takeInfo(tmpTitle.value, description.value)" style="height: 30px;">Зарегистрировать</button>
+                </div>     
+            </form>            
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <p>По проблемам обращаться test@test.ru</p>
+        </div>
+    </footer>
+</body>
+</html>

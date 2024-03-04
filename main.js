@@ -1,0 +1,3 @@
+function takeInfo(title, description) {
+
+}
